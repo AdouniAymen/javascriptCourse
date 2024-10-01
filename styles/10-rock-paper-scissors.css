@@ -1,0 +1,37 @@
+      body {
+        background-color: rgb(25,25,25);
+        font-family: verdana, sans-serif;
+        color: #fff;
+      }
+    
+      p:first-of-type {
+        font-size: 30px;
+        font-weight: bold;
+        color: #fff;
+      }
+      button:nth-child(-n+4) {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-color: transparent;
+        border: 2px solid white;
+        cursor: pointer;
+        margin-left: 10px;
+      }
+      .result {
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 50px;
+      }
+      .score {
+        margin-top: 60px;
+      }
+      button:last-of-type {
+        padding: 10px 8px;
+        font-size: 18px;
+        border: none;
+        background-color: #fff;
+        cursor: pointer;
+
+      }
+      

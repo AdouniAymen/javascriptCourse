@@ -1,0 +1,63 @@
+body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+.first-task button:first-child {
+  background-color: rgb(244,216,20);
+  color: #000;
+  font-size: 20px;
+  padding: 5px 40px;
+  margin: 50px 100px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.first-task button:nth-child(2) {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.first-task button:nth-child(3) {
+  background-color: rgb(230,230,230);
+  color: #000;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+/* second task */
+.second-task .gaming, .Music, .Tech {
+  padding: 10px 15px;
+  margin-left: 100px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.is-toggled {
+  background-color: #000;
+  color: #fff;
+}
+/* -------------- */
+.cost-input {
+  padding: 10px;
+  font-size: 15px;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+.total-cost {
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.error-color {
+ color: red;
+}

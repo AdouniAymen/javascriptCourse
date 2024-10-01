@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input
+      type="text"
+      name="text"
+      id="text"
+      placeholder="type here..."
+      onkeyup="
+  showOutput();
+  "
+    />
+
+    <p class="js-output"></p>
+  </body>     
+  <script>
+    function showOutput() {
+      let output = document.getElementById("text").value;
+      document.querySelector(".js-output").innerHTML = output;
+    }
+  </script>
+</html>
